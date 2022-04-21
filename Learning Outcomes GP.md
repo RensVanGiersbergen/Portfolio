@@ -31,14 +31,26 @@ I also helped Yannick out a bit with the backend architecture. We're using Entit
 
 ### 3. Agile method
 We work in an agile process in our group project. Every morning we start with the daily stand-up. Here we will discuss what everyone will be doing for the day and where we currently are in the project (in terms of what is completed and what still needs to be done). We will grab our notion board and start assigning tasks (see picture below). At the end of the day we will perform the daily stand-down. Here we will discuss how everything went this day. Think about problems that may have occurred throughout the day, or things that just didn't go as planned.   
-| <img src="https://user-images.githubusercontent.com/58734636/164235377-e98aad38-8905-4ecb-aa04-9e9170b56239.png" width="600" height="500" />| 
+| <img src="https://user-images.githubusercontent.com/58734636/164235377-e98aad38-8905-4ecb-aa04-9e9170b56239.png" width="700" height="600" />| 
 | :--: |
 | _Screenshot of our notion board_ |
 
 We end every sprint with a sprint review and a sprint retrospective. The sprint review is with the product owner. We will talk about what has priority, we gather feedback to improve our product and we take a look at what we are going to focus on upcoming sprint. But most importantly we will deliver parts of the product af often as possible to get as much feedback as possible. After the sprint review we will start the sprint retrospective with our group. We will ask ourselves a lot of questions about how it went this sprint. If anything is not to our liking, we will inspect it and adapt ourselves to improve it.
+| <img src="https://www.flowsphere.ch/wp-content/uploads/2017/02/ScrumFramework_17x11-1024x663.png" width="800" height="500" />| 
+| :--: |
+| _The scrum workflow we apply in our project_ |
 
 ### 5. Cultural differences and ethics
+
 ### 6. Requirements and design 
+We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green.. this could give users a wrong indication of how warm it is.
+|![temperature_distribution](https://user-images.githubusercontent.com/58734636/164425656-3a2769cb-121b-4ede-a318-0d91b53e7a28.png)|
+| :--: |
+| _Legend of the heatmap_ |
+
+I've discussed a lot with Yannick about the design of our backend. An example of this is when we were discussing a way to easily return the most recent data
+
+
 ### 7. Business processes
 ### 8. Professional
 
