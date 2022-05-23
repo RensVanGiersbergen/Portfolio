@@ -43,14 +43,25 @@ We end every sprint with a sprint review and a sprint retrospective. The sprint 
 ### 5. Cultural differences and ethics
 
 ### 6. Requirements and design 
-We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green.. this could give users a wrong indication of how warm it is.
+We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green.. this could give users a wrong indication of how warm it is
 |![temperature_distribution](https://user-images.githubusercontent.com/58734636/164425656-3a2769cb-121b-4ede-a318-0d91b53e7a28.png)|
 | :--: |
 | _Legend of the heatmap_ |
 
-I've discussed a lot with Yannick about the design of our backend. An example of this is when we were discussing a way to easily return the most recent data
+I've discussed a lot with Yannick about the design of our backend. An example of this is when we were discussing a way to easily return the most recent data. We receive data from Isaac's sensors every 30 seconds. The heatmap would only need the most recent data a sensor uploaded. So Yannick and I came up with a clever solution to store the received sensor data in a cache in the backend. This made it so no database query is needed to get all most recent data from all sensors. All thanks to the cache that stores the most recent data. We discussed and explained to each other making use of the whiteboard. This made it way easier for each other to explain ideas and problems.
+
+On the picture below are a couple things to see, first of all everything about where we should put our MQTT listener and are stash etc. second, we needed a way to generate missing values from the sensors, for example if 1 sensor would fail to publish his data our heatmap would miss data. For this problem Yannick and I had yet another clever solution. We would use nothing other than the well known Pythagorean theorem a.k.a. (a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>) to calculate the distance between the sensor with the missing value and the other sensors. We would use the value of the closest sensor for the sensor with the missing value. We discussed this problem with our stakeholder Bert and he told us it was a good solution to the problem.
+|<img src="https://user-images.githubusercontent.com/58734636/169823873-52702549-45a2-4b9f-bff8-1d4c66398a2b.jpg" width="700" height="500" />|
+| :--: |
+| _The whiteboard session of me and Yannick_ |
 
 
 ### 7. Business processes
+For our group project we don't really have a business project we can analyze. So we discussed this problem with our teacher (Marc) and came to the conclusion that we should analyze any relevant business project. So we as a group analyzed the business process of order picking. Webshops have huge warehouses filled with products that can be ordered and shipped. Advanced algorithm's create picking lists for employees to pick. We visualized this process for multiple reasons. First of all it's my job. And it was easy for me to guide our group in analyzing this process. Second of all, Rick created an order-picking system for his individual project. These two reasons let us to the decision for our business process to analyze.
+
+We visualized the process in Engage Process Modeler. This is a tool which I had a bit of experience working with. The Engage Process Modeler makes it possible to visualize business processes. These processes can be made as advanced as one can imagine. We choose to keep it simple and clear. As a group we set down and discussed the process until we all had a clear view of the process and everyone shared the same opinion. See picture below for the visualized process.
+| ![Picking](https://user-images.githubusercontent.com/58734636/169815706-b2c2f944-5276-49b0-8d67-84d7c27e853d.png)|
+| :--: |
+| _Order-picking business process_ |
 ### 8. Professional
 
