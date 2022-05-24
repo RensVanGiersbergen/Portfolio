@@ -57,9 +57,17 @@ We all share the same culture, so it wasn't necessary for us to adapt to each ot
 
 Ethics:
 ---
+**What is ethics in software engineering?** <br>
+You need to think about the impact your software has on the users in an ethical way.
+
+**Why is ethics important in software engineering?** <br>
+If u were to only focus on money as a developer, u will miss the important ethical parts of a project. Let say u are creating a social media application but i'll do nothing to censor bad words and only focus on getting as much money as possible. The user will suffer from this.
+
+**What do you have to do as a software engineer to address ethical aspects in your work?**
+
 
 ### 6. Requirements and design 
-We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green.. this could give users a wrong indication of how warm it is
+We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green... this could give users a wrong indication of how warm it is
 |![temperature_distribution](https://user-images.githubusercontent.com/58734636/164425656-3a2769cb-121b-4ede-a318-0d91b53e7a28.png)|
 | :--: |
 | _Legend of the heatmap_ |
