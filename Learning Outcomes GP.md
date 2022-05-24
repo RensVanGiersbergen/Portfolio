@@ -41,6 +41,22 @@ We end every sprint with a sprint review and a sprint retrospective. The sprint 
 | _The scrum workflow we apply in our project_ |
 
 ### 5. Cultural differences and ethics
+Cultural:
+---
+**What is culture?** <br>
+In my eyes, culture is the way people behave, what they believe in and what brings them together. People with the same culture will probably get along better.
+
+**Can you give examples for cultural differences that you have experienced in your study or life? How do you explain these differences?**  
+At work i have to deal with a lot of different cultures at once. Many different people work at the warehouse where i work. An example of cultural difference here is the music we play. A lot of people really love pub music (a lot of songs about drinking). But that's only a small portion of the employees. Another part really likes techno. And yet another part loves hardstyle. So we constantly experience cultural differences at work.
+
+**What is your culture?** <br>
+i think i have a traditionally dutch culture. I love and take part in many traditional dutch holidays. Like Carnaval and Sinterklaas. We love playing sports like soccer and hockey. Going out on saterday evenings to drink until we drop. It's all part of the dutch culture. Always up for a party.
+
+**What did you do to improve the group communications with respect to cultural differences?** <br>
+We all share the same culture, so it wasn't necessary for us to adapt to each other. We sometimes switch to talking english because it's better for some of us, like how i think it's better to write my portfolio in english. So we kinda switch to a modern culture were english is a very common language.
+
+Ethics:
+---
 
 ### 6. Requirements and design 
 We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green.. this could give users a wrong indication of how warm it is
