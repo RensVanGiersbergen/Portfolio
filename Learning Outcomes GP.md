@@ -61,7 +61,7 @@ Ethics:
 You need to think about the impact your software has on the users in an ethical way.
 
 **Why is ethics important in software engineering?** <br>
-If u were to only focus on money as a developer, u will miss the important ethical parts of a project. Let say u are creating a social media application but i'll do nothing to censor bad words and only focus on getting as much money as possible. The user will suffer from this.
+If you were to only focus on money as a developer, you will miss the important ethical parts of a project. Let say you're creating a social media application but i'll do nothing to censor bad words and only focus on getting as much money as possible. The user will suffer from this.
 
 **What do you have to do as a software engineer to address ethical aspects in your work?**
 
