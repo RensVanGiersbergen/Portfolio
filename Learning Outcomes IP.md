@@ -3,7 +3,13 @@ Learning outcomes for my individual project
 
 ## Table of contents
 - [1. Web application](#1-web-application)
+  - [Xamarin mobile application](#xamarin-mobile-application)
+  - [Vue.js web application](#vuejs-web-application)
+  - [Asp.net core web API](#aspnet-core-web-api)
 - [2. Software quality](#2-software-quality)
+  - [Unit testing](#unit-testing)
+  - [Endpoint testing](#endpoint-testing)
+  - [Code analyzing with Sonarcloud](#code-analyzing-with-sonarcloud)
 - [4. CI/CD](#4-cicd)
 - [8. Professional](#8-professional)
 
@@ -11,26 +17,29 @@ Learning outcomes for my individual project
 Here I will talk about everything that's part of my application. Here's a list of every part I am going to talk about:
 - [Xamarin mobile application](#xamarin-mobile-application)
 - [Vue.js web application](#vuejs-web-application)
-- [Asp.net core web API]
+- [Asp.net core web API](#aspnet-core-web-api)
 
 #### Xamarin mobile application
-I created a very basic Xamarin mobile application. This application tracks the skater while he is skating. You can start a journey with a given name and the mobile app will request creating a journey using the endpoint in my backend. After getting the new journeys id returned it will add a new position to the journey every 3 seconds. Enough about the logic, more about the application now. I developed it in Xamarin which was a nice experience. The emulator was really cool to use, you can tweak very specific things like battery health, internet connection and even let the emulator start walking a route (which was very great since I didn't have to go skateboard to test my app... which in another way was kinda sad that I no longer had an excuse to go skateboarding under school hours). The app would show you a map while being on a journey which comes from the google maps SDK API en loads in a map from [MapBox](https://www.mapbox.com/) on this map the app draws a route and draws it in a specific color. starting from light-green to red. Every change of color is +10 km/h.
+I created a very basic Xamarin mobile application. This application tracks the skater while he is skating. You can start a journey with a given name and the mobile app will request creating a journey using the endpoint in my backend. After getting the new journeys id returned it will add a new position to the journey every 3 seconds. Enough about the logic, more about the application now. I developed it in Xamarin which was a nice experience. The emulator was really cool to use, you can tweak very specific things like battery health, internet connection and even let the emulator start walking a route (which was very great since I didn't have to go skateboard to test my app... which in another way was kind off sad that I no longer had an excuse to go skateboarding under school hours). The app would show you a map while being on a journey which comes from the google maps SDK API en loads in a map from [MapBox](https://www.mapbox.com/) on this map the app draws a route and draws it in a specific color. starting from light-green to red. Every change of color is +10 km/h.
 
-|<image src="https://user-images.githubusercontent.com/58734636/171807407-4d512cb1-0acf-46f2-b013-1e4cf212d8ba.png" height="700px">|
+|<img src="https://user-images.githubusercontent.com/58734636/171807407-4d512cb1-0acf-46f2-b013-1e4cf212d8ba.png" height="700px" />|
 |:--:|
 | _Screenshot of my journey to school this morning_ |
 
 #### Vue.js web application
-My second frontend is a Vue.js web application. Vue was kind off complicated to start with. You first had to learn the basics, using the components, passing properties with components, routing, using data return and last but definitely not least... the lifecycle hooks. After getting a basic understanding in these difficult but yet easy things. It all started to work out. And I created a very simple yet promising web application. A quick warning though, my frontend developing skills are nowhere to be found.
+My second frontend is a Vue.js web application. Vue was kind off complicated to start with. You first had to learn the basics, using the components, passing properties with components, routing, using data return and last but definitely not least... the lifecycle hooks. After getting a basic understanding in these difficult but yet easy things. It all started to work out. And I created a very simple yet promising web application. A quick warning though, my frontend developing skills are nowhere to be found. Down below are some screenshots of my web applications interface.
 
 |![image](https://user-images.githubusercontent.com/58734636/171812758-78ce6a15-ba3f-4d9b-808b-d881e2f8e6ce.png)|
 |:--:|
 | _List of my journeys_ |
 
-  
+Upon clicking on a specific journey you get to see a lot of data of that journey. Nicely divided into 3 div's each containing their own data followed by a title. I know a little about UX and showing data to a user so I tried to optimize this. 
 |![image](https://user-images.githubusercontent.com/58734636/171812095-d15676f0-2b97-4986-bc99-e774188a538b.png)|
 |:--:|
 | _Journey overview_ |
+
+#### Asp.net core web API
+
 
 ### 2. Software quality
 I have done quite a lot about the assurance of my software quality. This includes:
