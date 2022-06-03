@@ -10,7 +10,7 @@ Learning outcomes for my individual project
 ### 1. Web application
 Here I will talk about everything that's part of my application. Here's a list of every part I am going to talk about:
 - [Xamarin mobile application](#xamarin-mobile-application)
-- [Vue.js web application]
+- [Vue.js web application](#vuejs-web-application)
 - [Asp.net core web API]
 
 #### Xamarin mobile application
@@ -22,12 +22,16 @@ I created a very basic Xamarin mobile application. This application tracks the s
 
 #### Vue.js web application
 My second frontend is a Vue.js web application. Vue was kind off complicated to start with. You first had to learn the basics, using the components, passing properties with components, routing, using data return and last but definitely not least... the lifecycle hooks. After getting a basic understanding in these difficult but yet easy things. It all started to work out. And I created a very simple yet promising web application. A quick warning though, my frontend developing skills are nowhere to be found.
+
+|![image](https://user-images.githubusercontent.com/58734636/171812758-78ce6a15-ba3f-4d9b-808b-d881e2f8e6ce.png)|
+|:--:|
+| _List of my journeys_ |
+
   
 |![image](https://user-images.githubusercontent.com/58734636/171812095-d15676f0-2b97-4986-bc99-e774188a538b.png)|
 |:--:|
 | _Journey overview_ |
 
-  
 ### 2. Software quality
 I have done quite a lot about the assurance of my software quality. This includes:
 - [Unit testing](#unit-testing)
