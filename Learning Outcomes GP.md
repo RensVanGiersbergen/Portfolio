@@ -65,8 +65,22 @@ You need to think about the impact your software has on the users in an ethical 
 **Why is ethics important in software engineering?** <br>
 If you were to only focus on money as a developer, you will miss the important ethical parts of a project. Let say you're creating a social media application but i'll do nothing to censor bad words and only focus on getting as much money as possible. The user will suffer from this.
 
-**What do you have to do as a software engineer to address ethical aspects in your work?**
+We also played the game with out group. Here are the questions I will be going to answer about this quiz.
+| <img src="https://cdn.discordapp.com/attachments/913358225724821534/983713636793086002/unknown.png" width="500" height="500"> |
+|:--:|
+| _Question at the end of the quiz_ |
 
+1. That even though there are many countries living very close to one another, theres a distinct difference between them.
+2. I will keep track of people from different countries
+3. We became a western european culture. We had the same thought on most questions.
+4. We got into some difficult discussions with our group.
+5. I would live to know more about (for us) weird behaviours in different cultures. Like how it is normal in Vietnam to hang up a call without saying goodbye.
+
+Here are the scores we got on the test:
+Maikel : 121
+Rick   : 114
+Liang  : 113
+Rens   : 112
 
 ### 6. Requirements and design 
 We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green... this could give users a wrong indication of how warm it is
