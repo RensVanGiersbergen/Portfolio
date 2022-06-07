@@ -55,7 +55,9 @@ This is a lightweight method which is arguably code reviewing. It is considered 
 This last method is considered the most favorite way of code reviewing by developers. It requires no extra developers to review your code. Previously we talked about the difference between automated and manual code reviewing so keep that in mind. Nonetheless this method costs the least time and developers needed for reviewing. Another advantage of using this method is that it is very quick compared to the other methods. This process can be automated using GitHub Actions, and many of the services talked about [above](#automated) are included in IDE's, for example ReSharper. All those reasons add up to this being the most loved method.
 
 ## How do experienced software engineers use code reviewing?
-(here i will ask experts about their opinions and tips)
+I asked a couple of experienced software engineers about how and when they use code reviewing.
+
+Starting with Bert from Isaac (becoming IO). Bert works at a software developing company. That's why code reviewing is very important. They never publish anything without having it checked out at least once, preferably twice. According to Bert the key of a succesful code review is to keep the SOLID principles in mind at all times.
 
 ## Conclusion:
 ## Sources:
