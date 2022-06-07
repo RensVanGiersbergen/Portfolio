@@ -40,6 +40,8 @@ We end every sprint with a sprint review and a sprint retrospective. The sprint 
 | :--: |
 | _The scrum workflow we apply in our project_ |
 
+Agile is a very powerful way to work with in a group. My experience with the agile method is very positive. It stimulated our groups productivity and over-all professionality. Starting everyday with a daily-standup felt like we were a real developer team working for a company. It was also a great improvement for out teamwork. All of us grew even more together as a team and ofcourse as friends!
+
 ### 5. Cultural differences and ethics
 Cultural:
 ---
