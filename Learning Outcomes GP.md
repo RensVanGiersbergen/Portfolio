@@ -89,5 +89,8 @@ We visualized the process in Engage Process Modeler. This is a tool which I had 
 | ![Picking](https://user-images.githubusercontent.com/58734636/169815706-b2c2f944-5276-49b0-8d67-84d7c27e853d.png)|
 | :--: |
 | _Order-picking business process_ |
+
+Because we couldn't really analyse a business process for our project or my individual one, I choose orderpicking. But I am aware of why I should be familiar with business processes for projects like these. Understanding business processes allows you to think of solutions you probably didn't think of before. Understanding these processes allows you to improve them as well. Knowing these processes you also know how users behave in a company.
+
 ### 8. Professional
 
