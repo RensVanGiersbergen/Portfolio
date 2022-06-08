@@ -42,6 +42,8 @@ We end every sprint with a sprint review and a sprint retrospective. The sprint 
 
 Agile is a very powerful way to work with in a group. My experience with the agile method is very positive. It stimulated our groups productivity and over-all professionality. Starting everyday with a daily-standup felt like we were a real developer team working for a company. It was also a great improvement for out teamwork. All of us grew even more together as a team and ofcourse as friends!
 
+I will recommend the agile method and will be using it a lot in future projects!
+
 ### 5. Cultural differences and ethics
 Cultural:
 ---
@@ -65,7 +67,7 @@ You need to think about the impact your software has on the users in an ethical 
 **Why is ethics important in software engineering?** <br>
 If you were to only focus on money as a developer, you will miss the important ethical parts of a project. Let say you're creating a social media application but i'll do nothing to censor bad words and only focus on getting as much money as possible. The user will suffer from this.
 
-We also played the game with out group. Here are the questions I will be going to answer about this quiz.
+We also played the slideshow-game with our group. Here are the questions I will be going to answer about this quiz.
 | <img src="https://cdn.discordapp.com/attachments/913358225724821534/983713636793086002/unknown.png" width="500" height="500"> |
 |:--:|
 | _Question at the end of the quiz_ |
@@ -82,6 +84,8 @@ Rick   : 114
 Liang  : 113
 Rens   : 112
 
+Sadly I lost but it was fun to do this game with my friends. Some questions really made no sense, but it was still fun discussing about them. I learned a lot about how close countries are very different. And that every country is looked at very differently by every other country.
+
 ### 6. Requirements and design 
 We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green... this could give users a wrong indication of how warm it is
 |![temperature_distribution](https://user-images.githubusercontent.com/58734636/164425656-3a2769cb-121b-4ede-a318-0d91b53e7a28.png)|
@@ -95,6 +99,7 @@ On the picture below are a couple things to see, first of all everything about w
 | :--: |
 | _The whiteboard session of me and Yannick_ |
 
+Most of our design choices in our heatmap were affected by Bert's feedback. For example features like sharing an url, the legend we talked about earlier, the dropdown with arrows beside it to switch floors. We delivered almost weekly to Bert so we could easily optimize all these things i just named. As i said most of our design choices are about the frontend (heatmap). Bert will be doing a code review on our backend so we might have to make changes in our backend in terms of design.
 
 ### 7. Business processes
 For our group project we don't really have a business project we can analyze. So we discussed this problem with our teacher (Marc) and came to the conclusion that we should analyze any relevant business project. So we as a group analyzed the business process of order picking. Webshops have huge warehouses filled with products that can be ordered and shipped. Advanced algorithm's create picking lists for employees to pick. We visualized this process for multiple reasons. First of all it's my job. And it was easy for me to guide our group in analyzing this process. Second of all, Rick created an order-picking system for his individual project. These two reasons let us to the decision for our business process to analyze.
@@ -104,7 +109,9 @@ We visualized the process in Engage Process Modeler. This is a tool which I had 
 | :--: |
 | _Order-picking business process_ |
 
-Because we couldn't really analyse a business process for our project or my individual one, I choose orderpicking. But I am aware of why I should be familiar with business processes for projects like these. Understanding business processes allows you to think of solutions you probably didn't think of before. Understanding these processes allows you to improve them as well. Knowing these processes you also know how users behave in a company.
+Because we couldn't really analyse a business process for our project or my individual one, I choose orderpicking. But I am aware of why I should be familiar with business processes for projects like these. Understanding business processes allows you to think of solutions you probably didn't think of before. Understanding these processes allows you to improve them as well. Knowing these processes you also know how users behave in a company and knowing this you can think about how the users would use your application and you can do acceptance testing.
 
 ### 8. Professional
+I kind of picked up the leader role in this project. This didn't necessarily mean that I did more work then the others. We are one group and finished our project with all of us contributing, which I am happy to announce since many groups have people who dropped out. I did most of the communication with the stakeholder and product owners. Same goes for communication within the team. Especially at the start of this semester. Later on the communication would go way smoother and less forced. I enjoyed being in this position and am definitely going to expand my skills. The role of lead developer fits me and I will one day be lead developer at a company.
 
+Another thing I did that made me feel like a professional is the fact that I always did my peer-feedback. This is a very important matter in group projects. So it's kind of sad to see not everyone in my group used this brilliant feature. Peer-feedback allows members of a project to compliment and notify all members about what they're doing. This is super beneficial for members. Receiving compliments improves their self-esteem and motivates them to keep going. And tips allow them to get aware of their own weaknesses. Most people don't know they're doing something wrong until you tell them. So members may not always know they are making mistakes. Be sure to let them know.
