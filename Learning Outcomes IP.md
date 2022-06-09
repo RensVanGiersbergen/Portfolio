@@ -89,3 +89,8 @@ The reason I used Sonarcloud is because I already had some experience with Sonar
 
 ### 8. Professional
 Regularly I visited Jean Paul to talk about my progress and the choices I made. why did you do it this way? How did you do this? What are you going to do next? And many more questions Jean Paul would keep asking on and on, and on, and on. But this was actually very helpful since it would make me really think about the choices I made. At first I found myself not going to speak with Jean Paul that often. But later on I noticed how important those feedback moments were and that motivated me to go more often.
+
+|![image](https://user-images.githubusercontent.com/58734636/172792154-cd4bd6d1-9fcf-4b30-a384-1f1f7b755ccb.png)|
+|:--:|
+| _Screenshot of my feedpulse_ |
+
