@@ -1,4 +1,4 @@
-# How can you achieve a successful code review?
+# What is the best way to code review in a group project?
 <br>
 <div align="center">
     <img src="https://image.spreadshirtmedia.net/image-server/v1/mp/compositions/T773A1MPA1611PT10X15Y7D153480745FS1605/views/3,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/wtf-per-minute-developer-code-java-c-gift-travel-mug.jpg">
@@ -42,7 +42,7 @@ When working in a developer team, code reviewing each other gives you yet anothe
 ## What code review strategies are there?
 Here I will include the most common strategies to review code.
 
-### (Fagan) Inspection
+### (Fagan/Formal) Inspection
 This approach requires a serie of meetings and a group of engineers. They will go over the code line by line. Usually with copies of the material. This is a very good method but it very time and people consuming which makes it very hard to use in small businesses.
 
 ### Pair Programming
@@ -60,6 +60,8 @@ I asked a couple of experienced software engineers about how and when they use c
 Starting with Bert from Isaac (becoming IO). Bert works at a software developing company. That's why code reviewing is very important. They never publish anything without having it checked out at least once, preferably twice. According to Bert the key of a succesful code review is to keep the SOLID principles in mind at all times.
 
 ## Conclusion:
+After getting to know many ways of code reviewing and hearing opinions from experts. My conclusion is that the best way for us in the group project to code review is with the over-the-shoulder tactic and we will code review after a new feature is ready. At the end of the sprint we will do a formal inspection. With these 2 tactics combined everyone keeps track of all parts of the project. And finishing every sprint with reviewing new code with a formal inspection we make sure nothing is missed since over-the-shoulder alone is very lightweight.
+
 ## Sources:
 - [Smartbear](https://smartbear.com/learn/code-review/what-is-code-review/)
 - [Wikipedia](https://en.wikipedia.org/wiki/Code_review)
