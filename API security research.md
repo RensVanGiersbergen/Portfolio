@@ -5,7 +5,25 @@
 </div>
 
 ## Table of contents
-
+- [What can I do to improve the security of my API?](#what-can-i-do-to-improve-the-security-of-my-api)
+  * [Table of contents](#table-of-contents)
+  * [What is an API?](#what-is-an-api)
+  * [Why is security important in API's?](#why-is-security-important-in-apis)
+  * [What are common ways of attacking an API?](#what-are-common-ways-of-attacking-an-api)
+    + [Injection](#injection)
+    + [DoS/DDoS](#dosddos)
+    + [Authentication Hijacking](#authentication-hijacking)
+    + [Data Exposure](#data-exposure)
+    + [Parameter Tampering](#parameter-tampering)
+    + [Man in the middle](#man-in-the-middle)
+    + [Unencrypted communications](#unencrypted-communications)
+  * [What are common ways to improve security in API's?](#what-are-common-ways-to-improve-security-in-apis)
+    + [Hash passwords](#hash-passwords)
+    + [Using OAuth](#using-oauth)
+    + [Use API keys](#use-api-keys)
+    + [Leave authorization to logic](#leave-authorization-to-logic)
+  * [Conclusion:](#conclusion)
+  * [Sources:](#sources)
 ## What is an API?
 API stands for _"Application programmable interface"._ An API is nothing more then software running on a server. Software can "talk to" API's to request numerous things of an API. Most common methods in an API are Get, Post, Put and Delete. The get method requests data from the API. The post sends data to an API. The put method sends new data to the API to replace old data. And the delete method request the API to delete data. These requests go to endpoints. Endpoints are the code that allows two applications to talk with each other. The requests from an application using our API all come down to an endpoint. The API will then return a status code of the request (if it succeeded or not) and maybe data that was requested (if it was a get request).
 
@@ -61,16 +79,16 @@ Starting where we left off. A must-have is encrypted communication. Use TLS (HTT
 - [Use API keys](#use-api-keys)
 - [Leave authorization to logic](#leave-authorization-to-logic)
 
-## Hash passwords
-This is pretty straight forward, hashing passwords makes sure no sensitive data is directly exposed. If in any case the passwords do get leaked. It is encrypted and cannot easily be restored. 
+### Hash passwords
+This is pretty straight forward, hashing passwords makes sure no sensitive data is directly exposed. If in any case the passwords do get leaked. It is encrypted and cannot easily be restored. For hasing passwords I checked out MaikelHendrikx1's [research about password hashing](https://github.com/MaikelHendrikx1/S3-Portfolio/blob/main/research-security.md#hashing).
 
-## Using OAuth
+### Using OAuth
 Using external authentication leaves you with a lot less work. Which is a very big benefit, but not only that. External authentication is way more secure and you can trust the big companies that allow third-party authentication (Google, Microsoft Azure or AWS). As a developer you know you can rely on them. Doing less security yourself and leaving it to these guys makes sure authentication is done very secure.
 
-## Use API keys
+### Use API keys
 Make use of API keys in your API. This is a code that is used to identify and authenticate, users and applications. Make sure you let your clients give the API in the request header so it is not directly visible in the url for max security.
 
-## Leave authorization to logic
+### Leave authorization to logic
 If implementing authorization be sure to never preform any authorization in the endpoints. Leave it to the logic layer since that's also what it should be user for.
 
 ## Conclusion:
