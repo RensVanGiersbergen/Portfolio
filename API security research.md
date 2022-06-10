@@ -56,9 +56,26 @@ Encrypted communication is a must have for secure API's. Without this the attack
 ## What are common ways to improve security in API's?
 
 Starting where we left off. A must-have is encrypted communication. Use TLS (HTTPS) for your API. This is the most important. Now we will discuss the other less but still very important improvements:
+- [Hash passwords](#hash-passwords)
+- [Using OAuth](#using-oauth)
+- [Use API keys](#use-api-keys)
+- [Leave authorization to logic](#leave-authorization-to-logic)
 
+## Hash passwords
+This is pretty straight forward, hashing passwords makes sure no sensitive data is directly exposed. If in any case the passwords do get leaked. It is encrypted and cannot easily be restored. 
+
+## Using OAuth
+Using external authentication leaves you with a lot less work. Which is a very big benefit, but not only that. External authentication is way more secure and you can trust the big companies that allow third-party authentication (Google, Microsoft Azure or AWS). As a developer you know you can rely on them. Doing less security yourself and leaving it to these guys makes sure authentication is done very secure.
+
+## Use API keys
+Make use of API keys in your API. This is a code that is used to identify and authenticate, users and applications. Make sure you let your clients give the API in the request header so it is not directly visible in the url for max security.
+
+## Leave authorization to logic
+If implementing authorization be sure to never preform any authorization in the endpoints. Leave it to the logic layer since that's also what it should be user for.
 
 ## Conclusion:
+Next time when i'll be making an API, which is probably faster then I think. I will make sure to always use HTTPS (TLS). Secondly, I will leave authentication to an external authentication third-party. These guys are professionals and are way ahead of authentication, and users trust these big well-known companies. Third of all, I will be using API keys in my API that should be send in the header of a request. This makes it way more secure to use my API.
+
 ## Sources:
 - [Fortinet](https://www.fortinet.com/resources/cyberglossary/api-security)
 - [Mulesoft](https://www.mulesoft.com/resources/api/what-is-an-api)
@@ -67,3 +84,5 @@ Starting where we left off. A must-have is encrypted communication. Use TLS (HTT
 - [Reblaze](https://www.reblaze.com/wiki/api-security/what-is-an-api-attack/)
 - [Owasp](https://owasp.org/www-community/attacks/xss/)
 - [Paloalto](https://www.paloaltonetworks.com/cyberpedia/what-is-a-denial-of-service-attack-dos)
+- [Stackoverflow blog](https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis/)
+- [restfulapi.net](https://restfulapi.net/security-essentials/)
