@@ -30,7 +30,9 @@ I also helped Yannick out a bit with the backend architecture. We're using Entit
 | _Screenshot of the architecture of our backend_ |
 
 ### 3. Agile method
-We work in an agile process in our group project. Every morning we start with the daily stand-up. Here we will discuss what everyone will be doing for the day and where we currently are in the project (in terms of what is completed and what still needs to be done). We will grab our notion board and start assigning tasks (see picture below). At the end of the day we will perform the daily stand-down. Here we will discuss how everything went this day. Think about problems that may have occurred throughout the day, or things that just didn't go as planned.   
+We work in an agile process in our group project. We choose the SCRUM agile methodology. Because we all are most aware with this methodology. I know about a couple of them. Like Extreme programming (XP), Dynamic Systems Development Method (DSDM). But our team has never worked with any of those before. So we stuck with the SCRUM method.
+
+Every morning we start with the daily stand-up. Here we will discuss what everyone will be doing for the day and where we currently are in the project (in terms of what is completed and what still needs to be done). We will grab our notion board and start assigning tasks (see picture below). At the end of the day we will perform the daily stand-down. Here we will discuss how everything went this day. Think about problems that may have occurred throughout the day, or things that just didn't go as planned.   
 | <img src="https://user-images.githubusercontent.com/58734636/164235377-e98aad38-8905-4ecb-aa04-9e9170b56239.png" width="700" height="600" />| 
 | :--: |
 | _Screenshot of our notion board_ |
