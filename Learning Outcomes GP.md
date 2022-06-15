@@ -42,9 +42,9 @@ We end every sprint with a sprint review and a sprint retrospective. The sprint 
 | :--: |
 | _The scrum workflow we apply in our project_ |
 
-Agile is a very powerful way to work with in a group. My experience with the agile method is very positive. It stimulated our groups productivity and over-all professionality. Starting everyday with a daily-standup felt like we were a real developer team working for a company. It was also a great improvement for out teamwork. All of us grew even more together as a team and ofcourse as friends!
+Agile SCRUM is a very powerful way to work with in a group. My experience with the agile method is very positive. It stimulated our groups productivity and over-all professionality. Starting everyday with a daily-standup felt like we were a real developer team working for a company. It was also a great improvement for out teamwork. All of us grew even more together as a team and ofcourse as friends!
 
-I will recommend the agile method and will be using it a lot in future projects!
+I will be using SCRUM more in future projects because it's a really nice way to work with in a team. It seems to boost my productivity. Another agile methodology I will try out in the future is KanBan since Bert told us that this is a nice methodology to try out.
 
 ### 5. Cultural differences and ethics
 Cultural:
@@ -88,6 +88,10 @@ Rens   : 112
 
 Sadly I lost but it was fun to do this game with my friends. Some questions really made no sense, but it was still fun discussing about them. I learned a lot about how close countries are very different. And that every country is looked at very differently by every other country.
 
+I also looked at the [ACM Software Engineering Code of Ethics](https://ethics.acm.org/code-of-ethics/software-engineering-code/). The most important I've seen in this list is number 7: "Colleagues". I think this is the most important principle in the list, because we will be working in a lot of different teams with a lot of different cultures and ethics. Working in a team is very important since it's a standard when working somewhere. Treating everybody equal and fair is the way to go. And helping your team on the way makes them smarter and you.
+
+For the future I will try to keep track of the third principle: "Product". Another very important thing is the product. The product you make might just be used by thousands, if not millions of people. Keeping it professional and ethically right is very important.
+
 ### 6. Requirements and design 
 We try to get as much feedback as possible from our stakeholder. We try to meet every week, so we can improve our product as much as possible. Bert (our stakeholder) gives us feedback. For example our heatmap. We used a date and time picker to select a specific date and time for the heatmap to show the data of that specific date and time. Afther feedback from Bert we are now using a slider to pick the time and a date picker for the date. This is just an example of how we process the given feedback to improve our product. Let's take another example. At first we would have the lowest sensor value as the lowest point in the legend and the highest sensor value as the highest point in the legend. Afther feedback from Bert we now have a minimum value and a maximum value in the legend, the problem was that if the lowest sensor value was 24 degrees, the color in the legend would have been green... this could give users a wrong indication of how warm it is
 |![temperature_distribution](https://user-images.githubusercontent.com/58734636/164425656-3a2769cb-121b-4ede-a318-0d91b53e7a28.png)|
@@ -111,7 +115,7 @@ We visualized the process in Engage Process Modeler. This is a tool which I had 
 | :--: |
 | _Order-picking business process_ |
 
-Because we couldn't really analyse a business process for our project or my individual one, I choose orderpicking. But I am aware of why I should be familiar with business processes for projects like these. Understanding business processes allows you to think of solutions you probably didn't think of before. Understanding these processes allows you to improve them as well. Knowing these processes you also know how users behave in a company and knowing this you can think about how the users would use your application and you can do acceptance testing.
+Because we couldn't really analyse a business process for our project or my individual one, I choose orderpicking. But I am aware of why I should be familiar with business processes for projects like these. Understanding business processes allows you to think of solutions you probably didn't think of before. Understanding these processes allows you to improve them as well. Knowing these processes you also know how users behave in a company and knowing this you can think about how the users would use your application and for example you can do better acceptance testing knowing a users behaviour.
 
 ### 8. Professional
 I kind of picked up the leader role in this project. This didn't necessarily mean that I did more work then the others. We are one group and finished our project with all of us contributing, which I am happy to announce since many groups have people who dropped out. I did most of the communication with the stakeholder and product owners. Same goes for communication within the team. Especially at the start of this semester. Later on the communication would go way smoother and less forced. I enjoyed being in this position and am definitely going to expand my skills. The role of lead developer fits me and I will one day be lead developer at a company.
